@@ -12,7 +12,7 @@ html, body{
 .background {
     background-image: 
     linear-gradient(
-    rgba(105, 78, 204, 0.5), 
+    rgba(53, 27, 148, 0.432), 
     rgba(99, 233, 177, 0.247)
 
     ),
@@ -25,12 +25,53 @@ body {
     
 }
 
-li.nav-item {
+button {
     background-color: white;
     border: 2px solid rgb(20, 140, 161);
+    padding: 3px 7px;
     transition-duration: 0.4s;
     border-radius: 20%;
-    margin: 15px 10px 15px 10px;   
+}
+
+header {
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    height: 10%
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 15px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(112, 29, 71);
+}
+
+a:active {
+    color: yellow;
+}
+
+button:hover {
+    background-color: rgba(101, 160, 209, 0.466);
 }
 
 .container {
@@ -39,14 +80,13 @@ li.nav-item {
     margin-top: 20px;
 }
 
-h1 {
-    text-align: center;
+form {
+    width: 80%;
+    margin-left: 120px;
 }
 
-form {
-    width: 85%;
-    margin-left: 80px;
-    margin-right: 90px;
+h1 {
+    text-align: center;
 }
 
 .icons {

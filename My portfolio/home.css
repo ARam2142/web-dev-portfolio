@@ -4,6 +4,7 @@
    margin: 0px;
    padding: 0px;
 }
+
 html, body {
     margin: 0px;
     height: 100%;
@@ -22,6 +23,19 @@ body {
         
         ),
         url('img/beach.jpg');
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(112, 29, 71);
+}
+
+a:active {
+    color: yellow;
 }
 
 header {
@@ -56,8 +70,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(20, 140, 161);
-    color: white;
+    background-color: rgba(101, 160, 209, 0.466);
 }
 
 .intro {
@@ -67,13 +80,13 @@ button:hover {
     top: 250px;
 }
 
-
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 32px;
     color: rgba(253, 253, 253, 0.877);
     right: 50px;
     left: 50px;
+    text-shadow: 2px 2px 7px #111111;
 }
 
 .footer {
@@ -94,10 +107,4 @@ h1 {
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 2px;
-}
-
-.socialmedialink {
-    /*float: left;*/
-    margin-top: 45px;
-
 }

@@ -53,6 +53,23 @@ button {
     border-radius: 20%;
 }
 
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(112, 29, 71);
+}
+
+a:active {
+    color: yellow;
+}
+
+button:hover {
+    background-color: rgb(84, 138, 209);
+}
+
 .description {
     clear: both;
     text-align: center;
