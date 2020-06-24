@@ -15,8 +15,8 @@ body {
 .background {
     background-image: 
         linear-gradient(
-            rgba(29, 54, 49, 0.479),
-            rgba(16, 74, 139, 0.39)
+            rgba(65, 106, 182, 0.678),
+            rgba(64, 35, 83, 0.37)
         
         ),
         url('img/beach.jpg');

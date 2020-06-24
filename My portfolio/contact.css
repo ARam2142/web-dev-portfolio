@@ -8,10 +8,21 @@ html, body{
     height: 100%;
     width: 100%;
 }
+
+.background {
+    background-image: 
+    linear-gradient(
+    rgba(105, 78, 204, 0.5), 
+    rgba(99, 233, 177, 0.247)
+
+    ),
+    url('img/beach.jpg');
+}
 body {
     background-size: cover;
     background-image: url('img/beach.jpg');
     color: whitesmoke;
+    
 }
 
 li.nav-item {
@@ -31,6 +42,19 @@ li.nav-item {
 h1 {
     text-align: center;
 }
+
+form {
+    width: 85%;
+    margin-left: 80px;
+    margin-right: 90px;
+}
+
+.icons {
+    font-size: 50px;
+    float: right;
+    margin: 20px, 10px 20px 10px;
+}
+
 
 .btn-primary {
     background-color: whitesmoke;
