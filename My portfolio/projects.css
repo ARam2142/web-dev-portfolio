@@ -53,6 +53,23 @@ header button {
     border-radius: 20%;
 }
 
+button a:link {
+    color: black;
+    text-decoration: none;
+}
+
+button a:visited {
+    color: rgb(112, 29, 71);
+}
+
+button:hover {
+    background-color: rgb(84, 138, 209);
+}
+
+button a:active {
+    color: yellow;
+}
+
 div.description {
     clear: both;
     text-align: center;
@@ -93,11 +110,6 @@ h1 {
     width: 100%;
 }
 
-figcaption {
-    margin-top: 25px;
-    
-}
-
 h2 {
     margin-top: 20px;
     color: whitesmoke;
@@ -113,6 +125,10 @@ img {
     text-align: center
 }
 
+nav a:active {
+    color: yellow;
+}
+
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -125,20 +141,4 @@ img {
     padding: 2px;
 }
 
-button a:link {
-    color: black;
-    text-decoration: none;
-}
-
-button a:visited {
-    color: rgb(112, 29, 71);
-}
-
-button:hover {
-    background-color: rgb(84, 138, 209);
-}
-
-button a:active {
-    color: yellow;
-}
 
