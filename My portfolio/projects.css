@@ -125,8 +125,12 @@ img {
     text-align: center
 }
 
-nav a:active {
+.footer a:active {
     color: yellow;
+}
+
+nav a:visited {
+    color: rgb(97, 33, 88);
 }
 
 .down {

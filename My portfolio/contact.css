@@ -117,6 +117,10 @@ h1 {
     color: rgb(112, 29, 71);
 }
 
+.fixed-bottom a:active {
+    color: yellow;
+}
+
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
