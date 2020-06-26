@@ -6,46 +6,37 @@
 }
 
 html, body {
-    margin: 0px;
     height: 100%;
+    width: 100%;
 }
+
+.background {
+    background-image: 
+    linear-gradient(
+    rgba(113, 147, 209, 0.699),
+    rgba(49, 21, 61, 0.39)
+        
+    ),
+    url('img/beach.jpg');
+}
+
 body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.tint-img {
-    background-image: 
-        linear-gradient(
-            rgba(113, 147, 209, 0.699),
-            rgba(49, 21, 61, 0.39)
-        
-        ),
-        url('img/beach.jpg');
-}
-
-a:link {
-    color: black;
-    text-decoration: none;
-}
-
-a:visited {
-    color: rgb(112, 29, 71);
-}
-
-a:active {
-    color: yellow;
-}
-
 header {
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
+    height: 12%;
 }
 
-.header ul {
-    list-style-type: none;
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
 }
 
 .header ul li {
@@ -54,11 +45,8 @@ header {
     font-size: 20px;
 }
 
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-size: 15px;
+.header ul {
+    list-style-type: none;
 }
 
 button {
@@ -73,7 +61,7 @@ button:hover {
     background-color: rgba(101, 160, 209, 0.466);
 }
 
-.intro {
+main {
     text-align: center;
     width:100%;
     position: absolute;
@@ -89,7 +77,7 @@ h1 {
     text-shadow: 2px 2px 7px #111111;
 }
 
-.footer {
+.footer nav {
     position: fixed;
     left: 0;
     bottom: 30px;
@@ -107,4 +95,17 @@ h1 {
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 2px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(112, 29, 71);
+}
+
+a:active {
+    color: yellow;
 }
