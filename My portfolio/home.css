@@ -57,6 +57,19 @@ header button {
     border-radius: 20%;
 }
 
+button a:link {
+    color: black;
+    text-decoration: none;
+}
+
+button a:visited {
+    color: rgb(112, 29, 71);
+}
+
+button a:active {
+    color: yellow;
+}
+
 button:hover {
     background-color: rgba(101, 160, 209, 0.466);
 }
@@ -85,6 +98,14 @@ h1 {
     text-align: center
 }
 
+nav a:visited {
+    color: rgb(112, 29, 71);
+}
+
+nav a:active {
+    color: yellow;
+}
+
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -97,15 +118,3 @@ h1 {
     padding: 2px;
 }
 
-a:link {
-    color: black;
-    text-decoration: none;
-}
-
-a:visited {
-    color: rgb(112, 29, 71);
-}
-
-a:active {
-    color: yellow;
-}

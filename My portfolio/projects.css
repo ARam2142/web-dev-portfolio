@@ -125,12 +125,12 @@ img {
     padding: 2px;
 }
 
-a:link {
+button a:link {
     color: black;
     text-decoration: none;
 }
 
-a:visited {
+button a:visited {
     color: rgb(112, 29, 71);
 }
 
@@ -138,7 +138,7 @@ button:hover {
     background-color: rgb(84, 138, 209);
 }
 
-a:active {
+button a:active {
     color: yellow;
 }
 

@@ -57,16 +57,16 @@ header {
     font-size: 15px;
 }
 
-a:link {
+button a:link {
     color: black;
     text-decoration: none;
 }
 
-a:visited {
+button a:visited {
     color: rgb(112, 29, 71);
 }
 
-a:active {
+button a:active {
     color: yellow;
 }
 
@@ -111,6 +111,10 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.fixed-bottom a:visited {
+    color: rgb(112, 29, 71);
 }
 
 .down {
