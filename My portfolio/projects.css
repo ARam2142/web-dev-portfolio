@@ -4,12 +4,16 @@
     padding: 0px;
 }
 
+html body {
+    height: 100%;
+    width: 100%;
+}
+
 body {
-    font-size: 22px;
     background-size: cover;
+    background-attachment: fixed;
     background-image: url('img/beach.jpg');
     backdrop-filter: blur(2px);
-    color: whitesmoke;
 }
 
 .background {
@@ -26,6 +30,7 @@ header {
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
+    height: 12%;
 }
 
 .header nav {
