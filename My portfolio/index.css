@@ -74,12 +74,20 @@ button:hover {
     background-color: rgba(101, 160, 209, 0.466);
 }
 
-.img-thumbnail {
-    float: right;
-}
-
 h1 {
     text-align: right;
+}
+
+div.card.mb-3 {
+    margin-left: 50px;
+    margin-top: 20px;
+    border-color: rgba(21, 97, 46, 0.349);
+    border-style: solid 4px;
+}
+
+p {
+    color: black;
+    
 }
 
 .footer nav {
