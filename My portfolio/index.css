@@ -25,10 +25,6 @@ body {
     background-attachment: fixed;
 }
 
-.navbar {
-    background-color: rgba(112, 193, 207, 0.623);
-}
-
 .header ul li {
     display: inline-block;
     margin-left: 35px;
