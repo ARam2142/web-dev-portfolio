@@ -25,6 +25,10 @@ body {
     background-attachment: fixed;
 }
 
+header {
+    background-color: rgba(92, 175, 223, 0.61);
+}
+
 .header ul li {
     display: inline-block;
     margin-left: 35px;
@@ -48,20 +52,12 @@ button a:link {
     text-decoration: none;
 }
 
-button a:visited {
-    color: rgb(112, 29, 71);
-}
-
-button a:active {
-    color: yellow;
-}
-
-button:hover {
-    background-color: rgba(101, 160, 209, 0.466);
-}
-
 h1 {
     color: whitesmoke;
+}
+
+form {
+    padding-top: 12px;
 }
 
 div.card.mb-3 {
