@@ -55,6 +55,10 @@ header {
     float: right;
 }
 
+.header a:hover {
+    color:black;
+}
+
 .header a:active {
     color: yellow;
 }

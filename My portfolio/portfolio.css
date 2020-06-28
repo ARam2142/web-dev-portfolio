@@ -26,10 +26,8 @@ body {
 }
 
 header {
-    font-style: normal;
-    font-family: 'Times New Roman', Times, serif;
     padding: 10px;
-    background-color: rgba(90, 166, 201, 0.555);
+    background-color:rgba(12, 42, 59, 0.61);
     height: 70px;
 }
 
@@ -48,6 +46,10 @@ header {
     display: inline-block;
     margin-left: 35px;
     font-size: 20px;
+}
+
+.header a:hover {
+    color:black;
 }
 
 .header a:active {
@@ -95,7 +97,7 @@ img {
     color: yellow;
 }
 
-nav a:visited {
+.footer a:visited {
     color: rgb(97, 33, 88);
 }
 
