@@ -25,17 +25,8 @@ body {
     background-attachment: fixed;
 }
 
-header {
-    font-style: normal;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 10px;
-    height: 12%;
-}
-
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
+.navbar {
+    background-color: rgba(112, 193, 207, 0.623);
 }
 
 .header ul li {
