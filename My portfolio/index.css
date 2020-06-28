@@ -74,13 +74,9 @@ button:hover {
 }
 
 h1 {
-   color: whitesmoke;
-   margin-left:30px
+    color: whitesmoke;
 }
 
-a h1 {
-    background-color: rgb(64, 138, 187);
-}
 div.card.mb-3 {
     margin-left: 50px;
     margin-top: 20px;
@@ -94,7 +90,6 @@ div.col-md-8 {
 
 p {
     color: black;
-    
 }
 
 .footer nav {
