@@ -89,6 +89,10 @@ h1 {
     background-color: rgba(107, 167, 187, 0.685);
 }
 
+h2.portfolio {
+    text-align: center;
+}
+
 .container {
     margin: 10px;
     display: flex;
@@ -100,6 +104,7 @@ h1 {
     color: black;
     padding: 12px 12px 12px 12px;
     width: 100%
+    
 }
 
 .container section.second {
