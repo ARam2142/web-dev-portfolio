@@ -75,14 +75,22 @@ button:hover {
 }
 
 h1 {
-    text-align: right;
+   color: whitesmoke;
+   margin-left:30px
 }
 
+a h1 {
+    background-color: rgb(64, 138, 187);
+}
 div.card.mb-3 {
     margin-left: 50px;
     margin-top: 20px;
     border-color: rgba(21, 97, 46, 0.349);
     border-style: solid 4px;
+}
+
+div.col-md-8 {
+    background-color: rgb(153, 185, 214);
 }
 
 p {

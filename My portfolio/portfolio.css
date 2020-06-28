@@ -75,12 +75,6 @@ button a:active {
     color: yellow;
 }
 
-div.description {
-    clear: both;
-    text-align: center;
-    color: whitesmoke;
-}
-
 p.hello {
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -91,6 +85,8 @@ p.hello {
 h1 {
     margin-top: 30px;
     padding-top: 20px;
+    color: white;
+    background-color: rgba(107, 167, 187, 0.685);
 }
 
 .container {
