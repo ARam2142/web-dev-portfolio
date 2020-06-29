@@ -43,6 +43,7 @@ header {
 
 .header ul {
     list-style-type: none;
+    background-color: black;
 }
 
 .header ul li {
