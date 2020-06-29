@@ -94,13 +94,14 @@ img {
     text-align: center
 }
 
+.footer a:visited {
+    color: rgb(97, 33, 88);
+}
+
 .footer a:active {
     color: yellow;
 }
 
-.footer a:visited {
-    color: rgb(97, 33, 88);
-}
 /*arrow to click to next page*/
 .down {
     transform: rotate(45deg);
