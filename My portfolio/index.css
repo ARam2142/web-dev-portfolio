@@ -3,7 +3,7 @@
    margin: 0px;
    padding: 0px;
 }
-
+/*background picture and body*/
 html, body {
     height: 100%;
     width: 100%;
@@ -24,9 +24,18 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+/*end of background picture and body*/
+/*
+*/
+/*header section*/
+h1 {
+    color: whitesmoke;
+}
 
 header {
+    padding: 10px;
     background-color: rgba(27, 55, 71, 0.61);
+    height: 75px;
 }
 
 .header ul li {
@@ -43,14 +52,13 @@ header {
     color:black;
 }
 
-h1 {
-    color: whitesmoke;
+.header a:active {
+    color:yellow;
 }
-
-form {
-    padding-top: 12px;
-}
-
+/*end of header section*/
+/*
+*/
+/*rows and columns*/
 div.card.mb-3 {
     margin-left: 50px;
     margin-top: 20px;
@@ -61,7 +69,10 @@ div.card.mb-3 {
 div.col-md-8 {
     background-color: rgb(153, 185, 214);
 }
-
+/*end of rows and columns*/
+/*
+*/
+/*footer section*/
 .footer nav {
     position: fixed;
     left: 0;
@@ -74,10 +85,11 @@ div.col-md-8 {
     color: rgb(112, 29, 71);
 }
 
-nav a:active {
+.footer a:active {
     color: yellow;
 }
 
+/*blue arrow on the bottom page*/
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
