@@ -31,14 +31,14 @@ body {
 header {
     padding: 10px;
     background-color:rgba(12, 42, 59, 0.61);
-    height: 70px;
+    height: 85px;
 }
 
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .header ul {
@@ -48,7 +48,8 @@ header {
 
 .header ul li {
     display: inline-block;
-    margin-left: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
     font-size: 20px;
 }
 

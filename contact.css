@@ -28,7 +28,7 @@ body {
 /*header*/
 header {
     padding: 10px;
-    height: 12%;
+    height: 85px;
     background-color: rgba(12, 42, 59, 0.61);
 }
 
@@ -39,7 +39,8 @@ header {
 
 .header ul li {
     display: inline-block;
-    margin-left: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
     font-size: 20px;
 }
 

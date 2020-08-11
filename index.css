@@ -28,19 +28,17 @@ body {
 /*
 */
 /*header section*/
-h1 {
-    color: whitesmoke;
-}
 
 header {
     padding: 10px;
-    background-color: rgba(27, 55, 71, 0.61);
-    height: 75px;
+    background-color: rgba(50, 81, 99, 0.61);
+    height: 85px;
 }
 
 .header ul li {
     display: inline-block;
-    margin-left: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
     font-size: 20px;
 }
 
@@ -74,12 +72,10 @@ div.col-md-8 {
 /*
 */
 /*footer section*/
-.footer nav {
-    position: fixed;
-    left: 0;
-    bottom: 30px;
-    width: 100%;
-    text-align: center
+
+div.fixed-bottom {
+    text-align: center;
+    height: 100px;
 }
 
 .footer a:visited {
