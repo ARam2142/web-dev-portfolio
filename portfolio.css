@@ -71,10 +71,6 @@ h1 {/*title of page*/
     text-align: center;
 }
 
-/*project section*/
-
-/*end of project section*/
-/*
 /*footer*/
 div.fixed-bottom {
     text-align: center;
@@ -89,7 +85,6 @@ div.fixed-bottom {
     color: yellow;
 }
 
-/*arrow to click to next page*/
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -101,5 +96,5 @@ div.fixed-bottom {
     display: inline-block;
     padding: 2px;
 }
-/*end of footer section*/
+
 
