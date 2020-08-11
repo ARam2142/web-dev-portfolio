@@ -7,7 +7,7 @@ This portfolio showcases my best projects. I constructed this portfolio using HT
 ___________________________________________________
 Outcome:
 
-This portfolio took me time to finish. This is the first time using bootstrap. So i was familiarizing myself with its documentation. It was very new to me.
+This portfolio took me time to finish. This is the first timme ever using bootstrap. So I was familiarizing myself with its documentation. It was very new to me. However, this made styling very easy and less time consuming. I will definetly be using it more in the future.
 
 ___________________________________________________
 Screenshots:
